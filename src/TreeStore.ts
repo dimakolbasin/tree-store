@@ -112,7 +112,7 @@ export default class TreeStore {
         return null;
     }
 
-    private setCachedResult(cacheKey: string, result: any): void {
+    private setCachedResult(cacheKey: string, result: Item | Item[]): void {
         const expiresAt = 300000; //5 minutes
         this.cache.set(cacheKey, { result });
 
