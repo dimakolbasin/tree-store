@@ -25,12 +25,12 @@ const question = (prompt: string): Promise<any> => {
 }
 
 export const getInputId = async (): Promise<number> => {
-    const id = parseInt(await question(ENTER_ID_ELEMENT));
+    const id: number = parseInt(await question(ENTER_ID_ELEMENT));
     return id;
 }
 
 const startTask = async () => {
-    const ts = new TreeStore(items);
+    const ts: TreeStore = new TreeStore(items);
 
     while (true) {
         lineDelimiter()
