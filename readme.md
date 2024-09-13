@@ -15,3 +15,13 @@ In the project directory, you can run:
 ##For run test
 
 ### `yarn test`
+
+q
+
+w
+
+e
+
+r
+
+t
